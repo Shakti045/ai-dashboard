@@ -25,7 +25,7 @@ const Home = () => {
             <button className=' flex items-center gap-2 bg-red-500 text-white px-4 py-2 rounded-lg'><IoIosLogOut size={20}/> Logout</button>
           </div>
         </div>
-        <div className=' flex-1 p-5 max-sm:p-0'>
+        <div className=' flex-1 h-full  p-5 max-sm:p-0'>
            <MainContent/>
         </div>
     </div>

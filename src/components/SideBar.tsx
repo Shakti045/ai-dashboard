@@ -11,7 +11,7 @@ const SideBar = () => {
         <Image src='/logo.png' width={100} height={100} alt='logo'/>
         <h1 className=' text-2xl font-bold text-white font-serif'>Pandu Ai</h1>
        </div>
-       <div className=' flex flex-col flex-1   text-white'>
+       <div className=' flex flex-col flex-1 max-sm:text-sm   text-white'>
          {
             sideBarItems.map((item)=>{
                 return (
