@@ -27,7 +27,7 @@ const SideBar = () => {
                             item.sublinks?.map((sublink)=>{
                                 return (
                                     <Link key={sublink.id} href={sublink.route}>
-                                        - {sublink.title}
+                                        <p className=' truncate'>- {sublink.title}</p>
                                     </Link>
                                 )
                             })
